@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Render extends JPanel {
-    private final int width = 1200;
-    private final int height = 1200;
-    private final int squareSize = 50;
+    private final int width = 800;
+    private final int height = 800;
+    private final int squareSize = 20;
     private final int measuredWidth = width / squareSize;
     private final int measuredHeight = height / squareSize;
     private final Kohonen kohonen;
